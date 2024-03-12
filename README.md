@@ -1,0 +1,1 @@
+# @ka-nabellinc/eslint-config
