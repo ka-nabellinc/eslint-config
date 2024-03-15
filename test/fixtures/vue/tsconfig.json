@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "jsx": "preserve",
+    "strict": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": false,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue"],
+  "exclude": ["node_modules"]
+}
