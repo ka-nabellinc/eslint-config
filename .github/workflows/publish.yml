@@ -35,6 +35,6 @@ jobs:
           git push origin v${{ github.event.inputs.release_version }}
       - name: Publish
         run: |
-          npx can-npm-publish --verbose && npm publish || echo "Does not publish"
+          npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
