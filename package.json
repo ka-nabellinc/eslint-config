@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ka-nabellinc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Kentaro Okutani <k-okutani@tos-works.com>",
   "license": "MIT",
   "publishConfig": {
