@@ -13,12 +13,10 @@ yarn add -D eslint-config-ka-nabellinc # yarn
 
 ## Usage
 
-Most of the services we provide use typescript and vue.
-
+Most of the services we provide use typescript and vue.  
 So we have entry points for typescript and vue.
 
-If you don't need either typescript or vue, you can use the root entry point.
-
+If you don't need either typescript or vue, you can use the root entry point.  
 In addition to that, we also have one for styles.
 
 To use, add following extends to your .eslintrc
